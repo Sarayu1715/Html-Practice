@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Restaraunt menu</title>
+    <style>
+        body{
+            background-image: url(image5.jpg);
+            background-repeat: no-repeat;
+            background-size: 60%;
+            background-position: center;
+            
+        }
+    </style>
+</head>
+<body > 
+    <h2 style="font-size: 50px;text-align: center;color: darkred;"><b>Restaraunt menu</b></h2>
+    <ol>
+        <li style="font-size: 35px;font-family: 'Times New Roman', Times, serif;" ><b >Veg-Items</b></li>
+        <br>
+        <ul style="font-size: 20px;">
+            <li>Veg.Kadai   Rs.120/-</li>
+            <li>Veg.Kaju Curry  Rs.170/-</li>
+            <li>Panner Tikka Masala   Rs.120/-</li>
+            <li>Shahi paneer Rs.190/-</li>
+            <li>Mix.Veg.Curry  Rs.140/-</li>
+            <li>Alu Gobi Masala  Rs.120/-</li>
+            <li>Dal Fry   Rs.110/-</li>
+            <li>Gobi 65  Rs.140/-</li>
+            <li>Veg.Manchurian  Rs.150/-</li>
+            <li>Veg.Pulao Rs.110/-</li>
+        </ul>
+        <br><br>
+        <li style="font-size: 35px;font-family: 'Times New Roman', Times, serif;" ><b>Non-Veg Items</b></li>
+        <br>
+        <ul style="font-size: 20px;" >
+            <li>Chicken Biryani  Rs.180/-</li>
+            <li>Butter Chicken  Rs.220/-</li>
+            <li>Tandoori Chicken  Rs.250/-</li>
+            <li>Kebabs  Rs.150/-</li>
+            <li>Fish Curry  Rs.180/-</li>
+            <li>Andhra Chicken Curry Rs.200/-</li>
+            <li>Mutton Biryani  Rs.270/-</li>
+            <li>Fish Paturi  Rs.200/-</li>
+            <li>Egg Biryani  Rs.150/-</li>
+            <li>Chicken Reshmi Kebab  Rs.320/-</li>
+            <li>Special Mutton Biryani  Rs.140/-</li>
+            <li>Veg.Biryani  Rs.140/-</li>
+            <li>Chilli chicken  Rs.200/-</li>
+            <li>Chicken Family Pack  Rs.450/-</li>
+            <li>Veg Family Pack  Rs.350/-</li>
+        </ul>
+    </ol>   
+</body>
+</html>
