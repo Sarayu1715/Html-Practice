@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin registration form</title>
+    <style>
+        p{
+            font-size: 25px;
+            color:darkblue ;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        input{
+            font-size: 20px;
+            color: black;
+        }
+        body{
+            font-size: 25px;
+        }
+        .center{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   <form action="">
+    <div class="center">
+        <img  src="image14.png" alt="Linkedin registration">
+    </div>
+    <p><b>Personal information</b></p>
+    <label for="101">
+        First name:<input type="text" placeholder="First name" name="first name" id="101">
+    </label>
+    <br>
+    Last name: <input type="text" placeholder="Last name">
+    <br>
+    Email address: <input type="text" placeholder="Email address">
+    <br>
+    Password: <input type="password" placeholder="Password">
+    <br>
+    Confirm password: <input type="password" placeholder=" Confirm Password">
+    <br><br>
+    <p><b>Professional Information</b></p>
+    Country/region : <select name="country" id="countrt">
+        <option value="South Korea">South Korea</option>
+        <option value="Thailand">Thailand</option>
+        <option value="India" selected>India</option>
+        <option value="China">China</option>
+        <option value="Japan">Japan</option>
+    </select>
+    <br>
+    Job title: <select name="Job" id="Job">
+        <option value="Software engineer">software engineer</option>
+        <option value="Data Scientist" selected>Data Scientist</option>
+        <option value="Systems Analyst">System Analyst</option>
+        <option value="IT Manager">IT Manager</option>
+        <option value="  Network Administrator">  Network Administrator</option>
+        <option value="Web Developer">Web Developer</option>
+    </select>
+    <br><br>
+    <p><b>Profile details</b></p>
+    Profile photo : <input type="image" placeholder="Profile photo" src="image13.jpeg">
+    <br>
+    Date of birth: <input type="date" placeholder="Date of birth">
+    <br>
+    Linkedin Profile link: <a href="https:/linkedin.com/in/thurimella-venkata-sarayu-581318301">Linkedin link</a>  
+    <br><br>
+   <div class="center">
+    <button style="text-align: center;font-size: 20px;color:black;background-color: blue;">Sign in</button>
+   </div>
+   </form>
+</body>
+</html>
