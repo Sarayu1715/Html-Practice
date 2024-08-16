@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaraunt menu</title>
+    <style>
+        ul{
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+
+        }
+        dl{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        img{
+            height: 300px;
+            width: 600px;
+
+        }
+        .center{
+            text-align: center;
+        }
+        hr{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="font-size: 50px;text-align: center;color:brown; "t><b>Andhra Family Restaraunt</b></h2>
+    <div class="center"><img  style="height: 300px; width: 600px;" src="picture4.jpeg" alt="Restaraunt"></div>
+    <nav>
+        <ul>
+            <li><a href="#appetizers">Appetizers</a></li>
+            <li><a href="#main-courses">Main Courses</a></li>
+            <li><a href="#desserts">Desserts</a></li>
+            <li><a href="#drinks">Drinks</a></li>
+        </ul>
+    </nav>
+    <div id="appetizers">
+    <ol>
+        <li style="font-size: 35px; font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(226, 43, 128);"><b>Appetizers</b></li>
+        <br>
+        <ul>
+            <li><b>Samosa - ₹40/-</b></li>
+            <dl>
+                <dd>A crispy, deep-fried pastry filled with spiced potatoes, peas, and sometimes meat.</dd>
+            </dl>
+            <li><b>Pakora -₹120/- </b></li>
+            <dl>
+                <dd>
+                    Vegetables or meat dipped in a chickpea flour batter and deep-fried, served with chutney.
+                </dd>
+            </dl>
+            <li><b>Paneer Tikka - ₹200/-</b></li>
+            <dl>
+                <dd>
+                    Chunks of paneer (Indian cottage cheese) marinated in spices and grilled, often served with mint chutney.
+                </dd>
+            </dl>
+            <div class="center"><img style="height: 300px; width:500px;" src="picture1.jpg" alt="Appetizers"></div>
+            <li><b>Aloo Tikki - ₹60/- per piece</b></li>
+            <dl>
+                <dd>
+                    Fresh or fried rolls filled with vegetables, sometimes including shrimp or pork, often served with dipping sauce.
+                </dd>
+            </dl>
+            <li><b>Chaat</b></li>
+            <ul>
+               
+                    <li>Pani Puri - ₹50/- per plate</li>
+                    <li> Bhel Puri - ₹70/- per plate</li>
+                    <li>Sev Puri - ₹70/- per plate </li> 
+            </ul>
+            <dl>
+                <dd>
+                    A savory snack made with a mixture of ingredients like crispy fried dough, boiled potatoes, chickpeas, yogurt, and tamarind chutney. Popular varieties include Pani Puri, Bhel Puri, and Sev Puri.
+                </dd>
+            </dl>
+            <li><b>Chicken Tikka - ₹250/-</b></li>
+            <dl>
+                <dd>
+                    Marinated chunks of chicken grilled to perfection, usually served with a side of mint chutney.
+                </dd>
+            </dl>
+            <li><b>Kebabs -₹220/-</b></li>
+            <dl>
+                <dd>
+                    Various types, including Seekh Kebabs (minced meat on skewers) and Shami Kebabs (minced meat patties).
+                </dd>
+            </dl>
+        </ul>
+    </div>
+        <hr>
+        <div id="main-courses">
+        <li style="font-size: 35px; font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(226, 43, 128);"><b>Main Courses</b></li>
+        <div class="center"><img src="image5.jpg" alt="Main courses"></div>
+        <ul>
+            <li><b>Paneer Butter Masala - ₹250/-</b></li>
+            <dl>
+                <dd>
+                    Soft cubes of paneer (Indian cottage cheese) cooked in a rich and creamy tomato-based gravy with butter and a blend of aromatic spices.
+                </dd>
+            </dl>
+            <li><b>Vegetable Biryani - ₹240/-</b></li>
+            <dl>
+                <dd>
+                    Aromatic basmati rice cooked with mixed vegetables and a blend of spices, garnished with fried onions and fresh cilantro.
+                </dd>
+            </dl>
+            <li><b>Aloo Gobi - ₹200/-</b></li>
+            <dl>
+                <dd>
+                    A dry curry made with potatoes (aloo) and cauliflower (gobi) seasoned with turmeric, cumin, and other spices.
+                </dd>
+            </dl>
+            <li><b>Chicken Biryani - ₹300/-</b></li>
+            <dl>
+                <dd>
+                    Aromatic basmati rice layered with marinated chicken and cooked with a blend of spices, garnished with fried onions and fresh herbs.
+                </dd>
+            </dl>
+            <li><b>Mutton Rogan Josh - ₹350/-</b></li>
+            <dl>
+                <dd>
+                    A classic Kashmiri dish made with tender pieces of mutton cooked in a rich and flavorful gravy with yogurt and spices.
+            </dl>
+            <li><b>Fish Curry - ₹300/-</b></li>
+            <dl>
+                <dd>
+                    Fish fillets cooked in a tangy and spicy curry made with tomatoes, tamarind, and a blend of coastal spices.
+                </dd>
+            </dl>
+            <li><b>Lamb Biryani - ₹350/-</b></li>
+            <dl>
+                <dd>
+                    Fragrant basmati rice layered with marinated lamb and cooked with spices, garnished with fried onions and fresh herbs.
+                </dd>
+            </dl>
+            <li><b>Egg Curry - ₹220/-</b></li>
+            <dl>
+                <dd>
+                    Boiled eggs cooked in a spiced tomato and onion gravy, a comforting and flavorful dish.
+                </dd>
+            </dl>
+            <li><b>Chicken Korma - ₹320/-</b></li>
+            <dl>
+                <dd>
+                    Chicken pieces cooked in a rich and creamy sauce made with yogurt, cream, and a blend of aromatic spices.
+                </dd>
+            </dl>
+        </ul>
+    </div>
+        <hr>
+        <div id="desserts"></div>
+        <li style="font-size: 35px; font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(226, 43, 128);"><b>Desserts</b></li>
+        <div class="center"><img src="picture2.png" alt="Desserts"></div>
+        <ul>
+            <li><b>Gulab Jamun - ₹100/-</b></li>
+            <dl>
+                <dd>
+                    Soft, deep-fried milk-based dumplings soaked in a fragrant sugar syrup flavored with cardamom and rose water.
+                </dd>
+            </dl>
+            <li><b>Rasmalai - ₹120/-</b></li>
+            <dl>
+                <dd>
+                    Soft paneer (cottage cheese) discs soaked in sweetened, thickened milk flavored with cardamom and garnished with nuts.
+                </dd>
+            </dl>
+            <li><b>Kulfi - ₹100/-</b></li>
+            <dl>
+                <dd>
+                    Traditional Indian ice cream made with thickened milk, available in various flavors such as malai (cream), pista (pistachio), and mango.
+                </dd>
+            </dl>
+            <li><b>Carrot Halwa (Gajar Ka Halwa) - ₹130/-</b></li>
+            <dl>
+                <dd>
+                    A traditional Indian dessert made from grated carrots cooked with milk, ghee, and sugar, flavored with cardamom and garnished with nuts.
+                </dd>
+            </dl>
+        </ul>
+    </div>
+        <hr>
+        <div id="drinks">
+        <li style="font-size: 35px; font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(226, 43, 128);"><b>Drinks</b></li>
+        <div class="center"><img src="picture3.jpeg" alt="Drinks"></div>
+        <ul>
+            <li><b>Masala Chai - ₹40/-</b></li>
+            <dl>
+                <dd>
+                    Traditional Indian spiced tea made with black tea, milk, sugar, and a blend of aromatic spices like cardamom, cinnamon, and ginger.
+                </dd>
+            </dl>
+            <li><b>Badam Milk - ₹80/-</b></li>
+            <dl>
+                <dd>
+                    A rich and creamy drink made with milk, ground almonds, cardamom, and saffron, served hot or cold.
+                </dd>
+            </dl>
+            <li><b>American Dry Fruit Milkshake - ₹150/-</b></li>
+            <dl>
+                <dd>
+                    A rich and creamy milkshake made with a blend of assorted dry fruits such as almonds, cashews, pistachios, and dates.
+                </dd>
+            </dl>
+            <li><b>Falooda - ₹120/-</b></li>
+            <dl>
+                <dd>
+                    A layered dessert drink made with sweet basil seeds, vermicelli, rose syrup, milk, and ice cream.
+
+                </dd>
+            </dl>
+        </ul>
+    </div>
+    </ol>
+</body>
+</html>
