@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Movie title</title>
+    <style>
+       body{
+        font-size: 30px;
+       }
+       img{
+        height: 300px;
+        width: 300px;
+        border: 5px solid black;
+       }
+       .image img{
+        padding: 30px;
+        border: 5px solid grey;
+        height: 200px;
+        width: 200px;
+       
+       }
+     
+    </style>
+</head>
+<body>
+    <img style="position: absolute; left: 4%; height: 200px;width: 400px; border-radius: 60%;" src="picture9.jpeg"  alt="">
+    <br>
+    <h1 style="text-align: center; font-size: 50px; font-style: oblique; color:darkred; "><b>MOVIE REVIEW</b></h1>
+    <br><br><br>
+    <img style="height: 300px;width: 200px;" src="images2.jpeg" alt="Lovely runner1">
+    <img src="images5.jpeg" alt="Lovely runner5">
+    <img src="images3.webp" alt="Lovely runner3">
+    <img src="images1.jpeg" alt="Lovely runner1">
+    <img src="images4.jpeg" alt="Lovely runner4">
+    <br><br>
+    <h2 style="font-size: 40px;"><b>Watch Trailer:</b></h2>
+    <iframe width="800" height="400" src="https://www.youtube.com/embed/5kk0dYa8Ccc" title="Lovely Runner | Official Trailer | CJ ENM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+<p><strong>Title: </strong>Lovely Runner</p>
+<p><strong>Director: </strong>Yoon Jong-ho</p>
+<p><strong>Genre :</strong>Drama</p>
+<div class="image">
+    <p><strong>Cast :</strong></p>
+   <img src="image16.jpeg" alt="" title="Byeon Woo-Seok  ">
+    <img src="image17.jpeg" alt="" title="Kim Hye-Yoon">
+    <img src="image18.jpeg" alt="" title="Song Ji-Ho">
+    <img src="image20.jpeg" alt="" title="Song Ji-Ho">
+    <img src="image21.jpeg" alt="" title="Seo Hye-Won">
+</div>
+<p><strong>Release Date: </strong>August 1, 2024</p>
+<p><strong>Rating :</strong>9.5/10</p>
+
+</body>
+</html>
