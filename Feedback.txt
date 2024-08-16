@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+    <style>
+     body{
+        font-size:25px;
+       text-align: left;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+    .center{
+        text-align: center;
+    }
+    .rating {
+            justify-content: left;
+        }
+        .rating input{
+            display:none;
+        }
+        .rating label{
+            font-size: 40px;
+            color: lightgray;
+            cursor: pointer;
+        }
+        .rating input:checked~label{
+            color: gold;
+        }
+        .rating input:hover ~ label,
+        .rating input:hover ~ label ~ label {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+    <h1 style="font-size: 40px; text-align: center; font-family: 'Times New Roman', Times, serif;"><b>E-Commerce Delivery Feedback Form</b></h1>
+    <p style="font-size: 20px; text-align: center;">You just place an order and we will deliver.</p>
+    <br>
+    <div class="center">
+        <img  style="height: 200px; width: 500px;" src="picture7.png" alt="Delivery image">
+    </div>
+    
+    <br>
+    Customer Name
+    <br>
+    <input type="text" placeholder="First">
+    <input type="text" placeholder="Last">
+    <br>
+    Email Address
+    <br>
+    <input type="text" placeholder="Email">
+    <br>
+    Phone
+    <br>
+    <input type="text" placeholder="###########">
+    <br>
+    What company handled your delivery?
+    <br>
+    <input type="text">
+    <br>
+    Please rate your level of satisfication
+    <br>
+    <div class="rating">
+       
+        <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="5 stars">★</label>
+        <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="4 stars">★</label>
+        <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="3 stars">★</label>
+        <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="2 stars">★</label>
+        <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="1 star">★</label>
+    </div>
+    <br>
+    <input style="font-size: 20px; color:white; background-color: blue;" type="submit">
+    </form>
+</body>
+</html>
