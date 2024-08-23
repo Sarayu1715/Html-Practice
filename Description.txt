@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My courses</title>
+    <style>
+        dt{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            color: crimson;
+        }
+        dd{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size:20px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="font-size: 40px;text-align: center;color: indigo;"><b>Different Courses to learn</b></h2>
+    <dl>
+        <dt>
+            <li>Web Development</li>
+        </dt>
+        <br>
+        <dd>
+            <li>Learn to create websites and web applications.</li>
+            <li>Courses often cover HTML, CSS, JavaScript, and backend technologies like Node.js, Python, or Ruby on Rails.
+            </li>
+        </dd>
+        <br><br>
+        <dt>
+            <li>Data Science</li>
+        </dt>
+        <br>
+        <dd>
+            <li>Focuses on analyzing and interpreting complex data.</li>
+            <li>Courses cover statistics, machine learning, data visualization, and programming languages like Python and R.</li>
+        </dd>
+        <br><br>
+        <dt>
+            <li>Digital Marketing</li>
+        </dt>
+        <br>
+        <dd>
+            <li> Learn strategies and techniques to promote products or services online. </li>
+            <li>Courses cover SEO, content marketing, social media marketing, and email marketing.</li>
+        </dd>
+        <br><br>
+        <dt>
+            <li>Graphic Design</li>
+        </dt>
+        <br>
+        <dd>
+            <li>Focuses on visual communication and design principles.</li>
+            <li>Courses cover software like Adobe Photoshop, Illustrator, and InDesign, as well as design theory.</li>
+        </dd>
+        <br><br>
+        <dt>
+            <li>Project Management Professional (PMP) Certification</li>
+        </dt>
+        <br>
+        <dd>
+            <li>This course prepares you for the PMP certification, covering project management methodologies and best practices.</li>
+            <li>Learn to plan, execute, and close projects efficiently, and manage teams and resources effectively.</li>
+        </dd>
+<br>
+    </dl>
+    
+</body>
+</html>
