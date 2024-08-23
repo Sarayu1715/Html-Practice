@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Deactivation Form</title>
+    <style>
+        body{
+            background-color:lightgoldenrodyellow;
+            text-align: left;
+            font-size: 25px;
+            color: darkred;
+        }
+        p{
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1 style="font-size: 45px; color:darkred; text-align: center;"><b>Account Deactivation Form</b></h1>
+        <p><b>Account Details</b></p>
+        Account Name
+        <br>
+        <input type="text" placeholder="First">
+        <input type="text" placeholder="Last">
+        <br><br>
+        Account holding branch
+        <br>
+        <input type="text" placeholder="branch">
+        <br><br>
+        Account(S) to be closed
+        <hr style="border: 2px solid black;">
+        Account Number
+        <br>
+        <input type="text">
+        <br>
+        Type of Account
+        <br>
+        <input type="text">
+        <br>
+        <p><b>Settlement Instructions</b></p>
+        Beneficiary Name <br>
+        <input type="text" placeholder="First">
+        <input type="text" placeholder="Last">
+        <br><br>
+        Account Number <br>
+        <input type="text">
+        <br><br>
+        Currency to be sent <br>
+        <input type="text">
+        <br><br>
+        Bank name <br>
+        <input type="text">
+        <br><br>
+        Bank Address <br>
+        <input type="text" placeholder="Street Address"><br>
+        <input type="text" placeholder="Street Address Line2"><br>
+        <input type="text" placeholder="City">
+        <input type="text" placeholder="Region"><br>
+        <input type="text" placeholder="Postal/Zip Code">
+        <select name="country" id="country">
+            <option value="South Korea">South Korea</option>
+            <option value="India" selected>India</option>
+            <option value="China">China</option>
+            <option value="Japan">Japan</option>
+            <option value="Pakistan">Pakistan</option>
+        </select>
+        <br><br>
+        Payment Charges <br><br>
+       <label for="101">
+        <input type="radio" name="charges" id="101">I/We will pay all charges from the amount being sent
+       </label>
+        <br><br>
+        <label for="102">
+            <input type="radio" name="charges" id="102">Beneficiary to pay all charge
+        </label>
+        <br><br>
+        Phone 
+        <input type="text" placeholder="##### #####">
+        <br>
+        Email 
+        <input type="text">
+        <br><br>
+        <input type="submit" value="SEND" style="border-radius: 5px; background-color: darkred; color: white;font-size: 25px;">
+    </form>
+</body>
+</html>
