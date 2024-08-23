@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Biodata</title>
+    <style>
+        h2{
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color:plum;
+            font-style: italic;
+            height: 45px;   
+        }
+        p{
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <h2><b>Personal Information</b></h2>
+    <p>Name: T.Sarayu</p>
+    <p>Date of Birth: March 9, 2005 </p>
+    <p>Contact Information: 6303426577</p>
+    <p>Gender: Female</p>
+    <p>Languages Known: English,Spanish</p>
+    <h2><b>Educational Background</b></h2>
+    <p>Institute name: Mohan Babu University</p>
+    <p>Degree: B.Tech</p>
+    <h2><b>Skills</b></h2>
+    <p>Technical Skills: Java, Python,HTML,SQL</p>
+    <p>Soft Skills: Teamwork, Problem-solving, Time management</p>
+    <h2><b>Additional Information</b></h2>
+    <p>Hobbies: Reading books,Learning new languages</p>
+</body>
+</html>
